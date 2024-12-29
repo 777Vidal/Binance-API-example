@@ -1,56 +1,79 @@
-# Binance-API-example
-Exploratory Data Analysis and Visualisation of Cryptocurrency Market Data using Binance API, Pandas and MPLFinance.
+# Binance API Example: Cryptocurrency Market Data Analysis
 
-Cryptocurrency Market Analysis with Binance API
+## Overview
+This project demonstrates how to analyse cryptocurrency market data using the Binance API. It focuses on retrieving, processing, and visualising data to uncover trends and insights. By leveraging Python libraries like Pandas and MPLFinance, the project provides tools for exploratory data analysis (EDA) and visualisation of cryptocurrency market behavior.
 
-This project explores cryptocurrency market data using the Binance API, focusing on Exploratory Data Analysis (EDA) and visualization techniques. It demonstrates how to retrieve, process, and analyze market data to uncover insights and trends in the cryptocurrency space.
+## Features
+1. **Binance API Integration**:
+   - Fetch real-time and historical market data.
+   - Retrieve ticker data, historical OHLCV (Open, High, Low, Close, Volume) data, and market depth.
 
-Project Features
+2. **Data Processing**:
+   - Clean and structure raw data using Pandas.
+   - analyse OHLCV data for selected cryptocurrencies.
 
-Binance API Integration: Fetch real-time and historical market data.
-Market Depth Analysis: Understand buy/sell orders for selected cryptocurrencies.
-OHLCV Data Processing: Analyze open, high, low, close, and volume data.
-Candlestick Visualization: Plot market trends using MPLFinance.
-Data Exploration: Clean, preprocess, and explore data using Pandas.
+3. **Exploratory Data Analysis (EDA)**:
+   - Investigate price patterns, volume trends, and other market behaviors.
 
-Tech Stack
+4. **visualisation**:
+   - Generate candlestick charts with moving averages using MPLFinance.
+   - visualise market depth and price trends.
 
-Python
-Binance API
-Pandas
-NumPy
-Matplotlib
-MPLFinance
+## Tech Stack
+- **Python**: Main programming language for data processing and analysis.
+- **Binance API**: For fetching market data.
+- **Pandas**: Data manipulation and preprocessing.
+- **NumPy**: Numerical computations.
+- **Matplotlib**: General-purpose plotting.
+- **MPLFinance**: Specialized visualisation for financial market data.
 
-Setup and Installation
+## Setup and Installation
 
-Get Binance API Keys
-Register on Binance.
-Generate API keys (go to API Management in your account settings).
-Save the keys securely (used for authentication in the project).
+### Step 1: Get Binance API Keys
+1. Register on Binance.
+2. Generate API keys from the **API Management** section in your account settings.
+3. Save the keys securely (they are required for authentication).
 
-Project Walkthrough
+### Step 2: Clone the Repository
+```bash
+git clone https://github.com/your-repository/binance-api-example.git
+cd binance-api-example
+```
 
-1. Data Retrieval
-Fetch ticker data, historical OHLCV data, and market depth.
-2. Data Preprocessing
-Clean and structure raw data using Pandas for analysis.
-3. Exploratory Data Analysis (EDA)
-Investigate patterns and trends in cryptocurrency prices and volumes.
-4. Visualization
-Generate candlestick charts and moving averages using MPLFinance.
+### Step 3: Install Dependencies
+```bash
+pip install -r requirements.txt
+```
 
-Potential Use Cases
-Market Analysis: Explore trading trends and price behaviors.
-Strategy Development: Design strategies based on historical trends.
-Learning Resource: Understand data processing and visualization in Python.
-Contributing
+### Step 4: Configure API Keys
+Add your API keys to the configuration file or environment variables as needed.
 
-Contributions are welcome! Feel free to fork the repository, submit issues, or open pull requests.
+## Project Walkthrough
+1. **Data Retrieval**
+   - Fetch ticker data, historical OHLCV data, and market depth.
+2. **Data Preprocessing**
+   - Clean and structure the data using Pandas.
+3. **Exploratory Data Analysis (EDA)**
+   - Explore trends in cryptocurrency prices and volumes.
+4. **Visualisation**
+   - Create candlestick charts and moving averages using MPLFinance.
 
-Author: Vidal Stott
-Email: vidalstott@gmail.com
-GitHub: 777Vidal
+## Potential Use Cases
+1. **Market Analysis**: Explore trading trends and price behaviors.
+2. **Strategy Development**: Use historical trends to inform trading strategies.
+3. **Learning Resource**: A practical example for data processing and visualisation in Python.
+
+## Contributions
+Contributions are welcome! Feel free to:
+1. Fork the repository.
+2. Submit issues or feature requests.
+3. Open pull requests to improve the project.
+
+## Author
+- **Vidal Stott**
+- **Email**: vidalstott@gmail.com
+- **GitHub**: [777Vidal](https://github.com/777Vidal)
+
 License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
